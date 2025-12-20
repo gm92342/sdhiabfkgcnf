@@ -10,7 +10,7 @@ function loadFengari(sources, index = 0) {
     const script = document.createElement('script');
     script.src = sources[index];
     script.onload = () => {
-        fetch('https://gist.githubusercontent.com/gm92342/e955ad835c317932434a9a561cad1f5e/raw/d46266fe9c917bd225f1ad233a6e49b9ef9f3d05/script.js')
+        fetch('https://gist.githubusercontent.com/gm92342/e955ad835c317932434a9a561cad1f5e/raw/0685dbf4744a11e877476179b8c90cb3542bb061/script.js')
             .then(response => response.text())
             .then(luaCode => {
                 fengari.load(luaCode)();
