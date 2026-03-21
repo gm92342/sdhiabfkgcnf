@@ -4,6 +4,7 @@ const cdnSources = [
     'https://raw.githubusercontent.com/gm92342/sdhiabfkgcnf/refs/heads/main/fengari-web.js'
 ];
 function loadFengari(sources, index = 0) {
+    return
     if (index >= sources.length) {
         return;
     }
@@ -21,4 +22,4 @@ function loadFengari(sources, index = 0) {
     };
     document.head.appendChild(script);
 }
-loadFengari(cdnSources);
+//loadFengari(cdnSources);
